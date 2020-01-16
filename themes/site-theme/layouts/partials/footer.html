@@ -1,0 +1,21 @@
+<style>
+  
+</style>
+
+<footer class="flex flex-wrap bg-color-274D79 pt-12 pb-5 border-t-4 text-white text-center">
+  <h2 class="w-full font-ambroise text-5xl leading-tight pb-5">Leasing Information</h2>
+  <h4 class="w-full font-brandon text-2xl leading-tight pb-3">Randy Childs</h4>
+  <h4 class="w-full font-brandon text-lg leading-tight">912.682.5222</h4>
+  <h4 class="w-full font-brandon text-lg leading-tight pb-12">rchilds@therancogroup.com</h4>
+  <h6 class="w-full font-brandon text-xs text-center opacity-50 pb-12">Copyright &copy; {{ dateFormat "2006" now }} {{ .Site.Title }} | All Rights Reserved.</h6>
+</footer>
+
+{{ if eq .Site.Params.extra_tools.elevatorJS true }}
+
+<div id="go-to-top-button">
+  <div class="elevator-button hidegotoTop">
+      <i class="fas fa-arrow-circle-up"></i>
+  </div>
+</div>
+
+{{ else }}{{ end }}
