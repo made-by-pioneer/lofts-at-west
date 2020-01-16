@@ -1,7 +1,7 @@
-baseURL = "https://gz-default.netlify.com/"
+baseURL = "https://loftswest.netlify.com/"
 languageCode = "en-us"
 theme = "site-theme"
-title = "Example"
+title = "The Lofts at West"
 enableRobotsTXT = true
 
 [[menu.desktop]]
