@@ -26,7 +26,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   background: rgba(0,0,0,0.6);
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .modal__close {
@@ -145,22 +144,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
     </div>
 </div>
 
-<!-- <script>
-var openfloorplan = document.querySelector('.floor-plan-button');
-var floorplan = document.querySelector('.homepage-hero');
-var floorplanflank = document.querySelector('.hero-flank');
-
-openfloorplan.onclick = function() {
-  floorplan.classList.toggle('xl:w-full');
-  floorplan.classList.toggle('xl:bg-contain');
-  floorplan.classList.toggle('py-80');
-  openfloorplan.classList.toggle('hidden');
-  floorplanflank.classList.toggle('xl:w-1/2');
-};
-
-</script> -->
 <div class="micromodal-slide" id="floor-plan" aria-hidden="true">
-    <div class="flex flex-wrap bg-white z-50 overflow-scroll modal__overlay" tabindex="-1" data-micromodal-close>
+    <div class="flex flex-wrap h-auto bg-white z-50 overflow-scroll modal__overlay" tabindex="-1" data-micromodal-close>
         <a data-micromodal-close aria-label="Close this dialog window" class="w-full bg-gray-200 hover:cursor-pointer font-brandon text-2xl no-underline py-2 px-4 rounded">Close</a>
         <div class="w-full max-w-6xl bg-contain lg:bg-cover bg-no-repeat bg-top opacity-100 homepage-hero">
             <div class="py-20 lg:py-56 xl:py-80 xxl:py-80"></div>
