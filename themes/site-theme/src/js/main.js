@@ -4,7 +4,7 @@ import MicroModal from 'micromodal';
 // init micromodal's js
 
 MicroModal.init({
-  disableScroll: false, // [5]
+  disableScroll: true, // [5]
 });
 
 // END
