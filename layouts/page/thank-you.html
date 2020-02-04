@@ -1,11 +1,17 @@
 {{ define "main" }}
 
-<section id="thank-you" class="flex h-screen">
-  <div class="flex w-full bg-blk-overlay text-center">
-  <div class="w-5/6 mx-auto text-white pt-32">
-    <h1 class="text-2xl lg:text-4xl pb-4"><span class="bg-black p-1 italic">Thank you!</span> your submission has been received.</h1>
+<style>
+  .footer-style {
+    display: none !important;
+  }
+</style>
+
+<section id="thank-you" class="flex py-24">
+  <div class="flex w-full text-center">
+  <div class="w-5/6 font-ambroise mx-auto text-black">
+    <h1 class="text-2xl lg:text-4xl pb-4"><span class="bg-color-274D79 text-white p-1 italic">Thank you!</span> your submission has been received.</h1>
     <h2 class="text-lg lg:text-2xl font-thin pb-6">We will be in touch shortly.</h2>
-    <a href="/" class="bg-black text-base lg:text-xl text-white rounded-lg py-2 px-4 uppercase no-underline">Return to Home Page</a>
+    <a href="/" class="bg-white font-brandon text-xl text-black font-bold border-2 hover:border-black mx-auto md:mx-0 md:ml-auto px-5 hover:cursor-pointer submit-button">Return to Home</a>
   </div>
   </div>
 </section>
